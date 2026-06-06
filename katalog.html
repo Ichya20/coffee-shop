@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Menu Coffee</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="contact-bg">
+
+<div class="container-fluid pt-4 px-4">
+    <a href="index.html" class="btn btn-warning fw-bold text-dark shadow">
+        ⬅ Kembali ke Home
+    </a>
+</div>
+
+<div class="container py-5 my-4 rounded shadow-lg" style="background: rgba(0, 0, 0, 0.75); max-width: 1200px;">
+
+<h1 class="text-center mb-5 text-white fw-bold" style="color: #ffbc00 !important;">Coffee Menu</h1>
+
+<h3 class="mb-4 text-warning">Kelompok Hitam</h3>
+<div class="row g-4 mb-5">
+
+<div class="col-md-3">
+<div class="card coffee-card"> <img src="img/Espresso Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Espresso</h5>
+<p class="fw-bold text-warning">Rp 15K</p>
+<button class="btn btn-warning text-dark fw-bold" onclick="tambahKeranjang('Espresso',15000)">Tambah</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card coffee-card">
+<img src="img/Americano Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Americano</h5>
+<p class="fw-bold text-warning">Rp 18K</p>
+<button class="btn btn-warning text-dark fw-bold" onclick="tambahKeranjang('Americano',18000)">Tambah</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card coffee-card">
+<img src="img/Long Black Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Long Black</h5>
+<p class="fw-bold text-warning">Rp 18K</p>
+<button class="btn btn-warning text-dark fw-bold" onclick="tambahKeranjang('Long Black',18000)">Tambah</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card coffee-card">
+<img src="img/Cold Brew Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Cold Brew</h5>
+<p class="fw-bold text-warning">Rp 20K</p>
+<button class="btn btn-warning text-dark fw-bold" onclick="tambahKeranjang('Cold Brew',20000)">Tambah</button>
+</div>
+</div>
+</div>
+
+</div>
+
+<h3 class="mt-5 mb-4 text-warning">Kelompok Susu</h3>
+<div class="row g-4 mb-5">
+
+<div class="col-md-3">
+<div class="card coffee-card">
+<img src="img/Cappucino Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Cappuccino</h5>
+<p class="fw-bold text-warning">Rp 22K</p>
+<button onclick="tambahKeranjang('Cappuccino',22000)" class="btn btn-warning text-dark fw-bold">Tambah</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card coffee-card">
+<img src="img/Caffe Latte Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Caffe Latte</h5>
+<p class="fw-bold text-warning">Rp 23K</p>
+<button onclick="tambahKeranjang('Caffe Latte',23000)" class="btn btn-warning text-dark fw-bold">Tambah</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card coffee-card">
+<img src="img/Flat White Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Flat White</h5>
+<p class="fw-bold text-warning">Rp 23K</p>
+<button onclick="tambahKeranjang('Flat White',23000)" class="btn btn-warning text-dark fw-bold">Tambah</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card coffee-card">
+<img src="img/Piccolo Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Piccolo</h5>
+<p class="fw-bold text-warning">Rp 20K</p>
+<button onclick="tambahKeranjang('Piccolo',20000)" class="btn btn-warning text-dark fw-bold">Tambah</button>
+</div>
+</div>
+</div>
+
+</div>
+
+<h3 class="mt-5 mb-4 text-warning">Kelompok Manis</h3>
+<div class="row g-4 mb-5">
+
+<div class="col-md-3">
+<div class="card coffee-card">
+<img src="img/Mocha Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Mocha</h5>
+<p class="fw-bold text-warning">Rp 25K</p>
+<button onclick="tambahKeranjang('Mocha',25000)" class="btn btn-warning text-dark fw-bold">Tambah</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card coffee-card">
+<img src="img/Caramel Macchiato Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Caramel Macchiato</h5>
+<p class="fw-bold text-warning">Rp 27K</p>
+<button onclick="tambahKeranjang('Caramel Macchiato',27000)" class="btn btn-warning text-dark fw-bold">Tambah</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card coffee-card">
+<img src="img/Affogato Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Affogato</h5>
+<p class="fw-bold text-warning">Rp 28K</p>
+<button onclick="tambahKeranjang('Affogato',28000)" class="btn btn-warning text-dark fw-bold">Tambah</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card coffee-card">
+<img src="img/Es Kopi Susu Gula Aren Coffee.jpeg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Es Kopi Susu Gula Aren</h5>
+<p class="fw-bold text-warning">Rp 20K</p>
+<button onclick="tambahKeranjang('Es Kopi Susu Gula Aren',20000)" class="btn btn-warning text-dark fw-bold">Tambah</button>
+</div>
+</div>
+</div>
+
+</div>
+
+<hr class="border-secondary my-5">
+<h3 class="mt-5 text-white">🛒 Keranjang Belanja</h3>
+<ul class="list-group mb-3 text-dark" id="list-keranjang"></ul>
+<h5 class="text-white">Total: <span id="total" class="text-warning fw-bold">Rp 0</span></h5>
+
+<button class="btn btn-success mt-3 btn-lg fw-bold px-4" onclick="checkoutWA()">Checkout via WhatsApp 💬</button>
+
+</div>
+
+<script>
+let keranjang = JSON.parse(localStorage.getItem("keranjang")) || [];
+
+function simpan(){
+localStorage.setItem("keranjang", JSON.stringify(keranjang));
+}
+
+function tambahKeranjang(nama,harga){
+let item=keranjang.find(i=>i.nama===nama);
+if(item){item.jumlah++;}
+else{keranjang.push({nama,harga,jumlah:1});}
+simpan(); tampilKeranjang();
+}
+
+function tambahJumlah(i){keranjang[i].jumlah++; simpan(); tampilKeranjang();}
+function kurangJumlah(i){keranjang[i].jumlah--; if(keranjang[i].jumlah<=0){keranjang.splice(i,1);} simpan(); tampilKeranjang();}
+function hapusItem(i){keranjang.splice(i,1); simpan(); tampilKeranjang();}
+
+function tampilKeranjang(){
+let list=document.getElementById("list-keranjang");
+let total=0; list.innerHTML="";
+keranjang.forEach((item,i)=>{
+let sub=item.harga*item.jumlah; total+=sub;
+list.innerHTML+=`
+<li class="list-group-item bg-dark text-white border-secondary mb-2 rounded">
+<div class="d-flex justify-content-between align-items-center">
+<strong>${item.nama}</strong><span class="text-warning fw-bold">Rp ${sub}</span>
+</div>
+<div class="d-flex justify-content-between mt-2">
+<div>
+<button class="btn btn-sm btn-danger fw-bold" onclick="kurangJumlah(${i})">-</button>
+<span class="mx-3">${item.jumlah}</span>
+<button class="btn btn-sm btn-success fw-bold" onclick="tambahJumlah(${i})">+</button>
+</div>
+<button class="btn btn-sm btn-outline-light" onclick="hapusItem(${i})">❌ Hapus</button>
+</div>
+</li>`;
+});
+document.getElementById("total").innerText="Rp "+total;
+}
+
+function checkoutWA(){
+let data = encodeURIComponent(JSON.stringify(keranjang));
+window.location.href = "order.php?data=" + data;
+}
+tampilKeranjang();
+</script>
+
+</body>
+</html>

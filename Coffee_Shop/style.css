@@ -1,0 +1,271 @@
+/* =======================
+FONT
+======================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f8f9fa;
+margin:0;
+padding:0;
+}
+
+
+/* =======================
+NAVBAR
+======================= */
+
+.navbar{
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand{
+font-size:22px;
+font-weight:600;
+letter-spacing:1px;
+}
+
+
+/* =======================
+HERO SECTION
+======================= */
+
+.hero{
+background:url("img/Background Home Coffee.jpeg");
+background-size:cover;
+background-position:center;
+height:90vh;
+display:flex;
+align-items:center;
+color:white;
+}
+
+.hero-text{
+background:rgba(0,0,0,0.55);
+padding:40px;
+border-radius:10px;
+max-width:500px;
+}
+
+
+/* =======================
+BUTTON
+======================= */
+
+.btn-warning{
+background:#c69c6d;
+border:none;
+}
+
+.btn-warning:hover{
+background:#a67c52;
+}
+
+
+/* =======================
+CARD COFFEE MENU
+======================= */
+
+.coffee-card{
+border:none;
+border-radius:12px;
+overflow:hidden;
+transition:0.3s;
+}
+
+.coffee-card img{
+height:200px;
+object-fit:cover;
+}
+
+.coffee-card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card-body h5{
+font-weight:600;
+}
+
+
+/* =======================
+MENU TITLE
+======================= */
+
+h1,h2,h3{
+font-weight:600;
+color:white;
+text-shadow:2px 2px 5px rgba(0,0,0,0.7);
+}
+
+
+/* =======================
+LIST GROUP
+======================= */
+
+.list-group-item{
+padding:12px;
+font-size:16px;
+}
+
+
+/* =======================
+FORM
+======================= */
+
+input, textarea{
+border-radius:8px !important;
+border:1px solid #ddd;
+padding:10px;
+}
+
+input:focus, textarea:focus{
+border-color:#c69c6d;
+box-shadow:none;
+}
+
+
+/* =======================
+CONTACT SECTION
+======================= */
+
+.contact-box{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+/* =======================
+ADMIN DASHBOARD
+======================= */
+
+.admin-card{
+border:none;
+border-radius:10px;
+transition:0.3s;
+}
+
+.admin-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.admin-card h3{
+font-weight:600;
+}
+
+
+/* =======================
+TABLE ADMIN
+======================= */
+
+.table{
+background:white;
+border-radius:10px;
+overflow:hidden;
+}
+
+.table th{
+background:#212529;
+color:white;
+text-align:center;
+}
+
+.table td{
+vertical-align:middle;
+text-align:center;
+}
+
+
+/* =======================
+FOOTER
+======================= */
+
+footer{
+background:#212529;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:50px;
+font-size:14px;
+}
+
+/* =======================
+BACKGROUND MENU KATALOG
+======================= */
+
+.container{
+background-image:url("img/Background\ Home\ Coffee.jpeg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+min-height:100vh;
+}
+
+/* =======================
+BACKGROUND LOGIN ADMIN
+======================= */
+
+.login-bg{
+background-image:url("img/Background\ Home\ Coffee.jpeg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+/* =======================
+BACKGROUND CONTACT
+======================= */
+
+.contact-bg{
+background-image:url("img/Background\ Home\ Coffee.jpeg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+min-height:100vh;
+}
+
+/* =======================
+ABOUT TEXT
+======================= */
+
+.about-text{
+max-width:700px;
+margin:auto;
+text-align:center;
+background:rgba(0,0,0,0.5);
+padding:30px;
+border-radius:10px;
+}
+
+.about-text p{
+line-height:1.8;
+font-size:18px;
+}
+
+/* =======================
+RESPONSIVE
+======================= */
+
+@media(max-width:768px){
+
+.hero{
+height:60vh;
+}
+
+.hero-text{
+padding:20px;
+}
+
+.coffee-card img{
+height:160px;
+}
+
+}

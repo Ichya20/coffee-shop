@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>About Us</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-dark"> <!-- Ditambah bg-dark biar warna latar belakangnya gelap serasi -->
+
+<div class="container py-5">
+
+<a href="index.html" class="btn btn-warning mb-4 fw-bold"> <!-- Diganti tombol kuning biar match -->
+⬅ Kembali ke Home
+</a>
+
+<h1 class="text-center text-white mb-5 fw-bold">About Our Coffee Shop</h1>
+
+<!-- ================= REVISI POIN 4: LAYOUT ABOUT 2 KOLOM ================= -->
+<div class="row align-items-center mb-5">
+
+  <!-- Kolom Kiri: Berisi Teks Penjelasan -->
+  <div class="col-md-6 text-white about-text mb-4">
+    <p style="font-size: 1.1rem; line-height: 1.8;">
+      CoffeeShop adalah tempat yang menghadirkan pengalaman menikmati kopi dengan cita rasa terbaik. 
+      Kami menggunakan biji kopi pilihan yang diproses dengan teknik roasting berkualitas,
+      untuk menghasilkan aroma dan rasa yang sempurna di setiap cangkir.
+    </p>
+    <p style="font-size: 1.1rem; line-height: 1.8;" class="text-secondary">
+      Dengan suasana yang hangat, nyaman, dan pelayanan yang ramah, 
+      CoffeeShop menjadi tempat yang ideal untuk bersantai, bekerja, 
+      maupun berkumpul bersama teman dan keluarga sambil menikmati berbagai pilihan kopi spesial kami.
+    </p>
+  </div>
+
+  <!-- Kolom Ranan: Berisi Gambar Cafe -->
+  <div class="col-md-6 mb-4">
+    <!-- CATATAN: Pastikan di folder 'img' kamu ada gambar, ganti 'about.jpg' dengan nama file gambarmu -->
+    <img src="img/about.jpg" alt="Suasana Coffee Shop" class="img-fluid rounded shadow-lg" style="width: 100%; height: 350px; object-fit: cover;">
+  </div>
+
+</div>
+
+<hr class="border-secondary my-5"> <!-- Garis pembatas estetik -->
+
+<!-- ================= REVISI POIN 1 & 2: SECTION ULASAN PELANGGAN ================= -->
+<div class="row justify-content-center text-center text-white">
+  <div class="col-12">
+    <h2 class="fw-bold mb-4" style="color: #ffbc00;">Ulasan Pelanggan</h2>
+  </div>
+  
+  <!-- Box Ulasan 1: Tentang Menu Kopi -->
+  <div class="col-md-5 mb-4">
+    <div class="card bg-secondary text-white h-100 p-3 text-start border-0 shadow">
+      <div class="card-body">
+        <div class="text-warning mb-2">⭐⭐⭐⭐⭐</div>
+        <p class="card-text">"Kopi Susu Senja-nya pas banget di lidah! Rasa kopinya tetap berasa kuat dan gak kemanisan. Recommended!"</p>
+        <h6 class="card-title fw-bold mt-3 text-warning">- Ahmad (Ulasan Menu)</h6>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Box Ulasan 2: Tentang Tempat / Coffee Shop -->
+  <div class="col-md-5 mb-4">
+    <div class="card bg-secondary text-white h-100 p-3 text-start border-0 shadow">
+      <div class="card-body">
+        <div class="text-warning mb-2">⭐⭐⭐⭐⭐</div>
+        <p class="card-text">"Tempatnya tenang banget buat nugas kuliah, wifinya kencang, dan suasananya estetik pas sore hari."</p>
+        <h6 class="card-title fw-bold mt-3 text-warning">- Rara (Ulasan Coffee Shop)</h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
